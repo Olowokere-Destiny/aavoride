@@ -28,7 +28,7 @@ export default function PrioritySection() {
           <h2 className="text-2xl sm:text-3xl font-bold text-white leading-snug">
             Your Safety Is Our Priority
           </h2>
-          <p className="text-sm text-gray-300 leading-relaxed">
+          <p className="text-sm text-white leading-relaxed">
             Every ride is secured with sanitized vehicles, GPS tracking, and 24/7
             support for a safe and worry-free journey.
           </p>
