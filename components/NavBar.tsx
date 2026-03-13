@@ -7,7 +7,7 @@ export default function NavBar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <nav className="w-full bg-white px-4 sm:px-6 lg:px-10 py-3">
+    <nav className="w-full bg-white px-4 sm:px-6 lg:px-10 py-3 relative z-50">
       <div className="max-w-7xl mx-auto flex items-center justify-between h-10">
 
         <Link
@@ -17,6 +17,7 @@ export default function NavBar() {
           AAVORide
         </Link>
 
+        {/* desktop */}
         <div className="hidden sm:flex items-center gap-3">
           <Link
             href="#login"
@@ -28,15 +29,12 @@ export default function NavBar() {
             href="#signup"
             className="text-sm font-semibold text-white transition-colors px-4 py-1.5 rounded-md"
             style={{ backgroundColor: "#FF3E1D" }}
-            onMouseEnter={e => (e.currentTarget.style.backgroundColor = "#e8361a")}
-            onMouseLeave={e => (e.currentTarget.style.backgroundColor = "#FF3E1D")}
-            onMouseDown={e => (e.currentTarget.style.backgroundColor = "#cc2f16")}
-            onMouseUp={e => (e.currentTarget.style.backgroundColor = "#e8361a")}
           >
             Sign up
           </Link>
         </div>
 
+        {/* hamburger */}
         <button
           className="sm:hidden flex flex-col justify-center items-center w-8 h-8 gap-1.5 focus:outline-none"
           onClick={() => setMenuOpen((prev) => !prev)}
@@ -60,9 +58,9 @@ export default function NavBar() {
         </button>
       </div>
 
-      {/* for mobile */}
+      {/* mobile menu */}
       {menuOpen && (
-        <div className="sm:hidden mt-2 pb-3 flex flex-col gap-2 border-t border-gray-100 pt-3">
+        <div className="sm:hidden absolute top-full left-0 right-0 bg-white border-t border-gray-100 shadow-lg px-4 py-3 flex flex-col gap-2">
           <Link
             href="#login"
             className="text-sm font-medium text-gray-700 hover:text-gray-900 transition-colors px-2 py-2 text-center"
