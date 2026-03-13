@@ -1,6 +1,7 @@
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import NavBar from "@/components/NavBar";
+import ReviewsSection from "@/components/ReviewsSection";
 import RidesSection from "@/components/RidesSection";
 import ServicesSection from "@/components/ServicesSection";
 import WhySection from "@/components/WhySection";
@@ -15,6 +16,7 @@ export default function Home() {
       <ServicesSection />
       <WhySection />
       <RidesSection />
+      <ReviewsSection />
     </main>
     </>
   );
