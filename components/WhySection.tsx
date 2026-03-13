@@ -45,7 +45,7 @@ function FeatureItem({ icon, title, description }: FeatureItemProps) {
 
 export default function WhySection() {
   return (
-    <section className="w-full bg-white py-16 px-4 sm:px-6 lg:px-10 border-y-2 border-gray-200">
+    <section className="w-full bg-white py-16 px-4 sm:px-8 lg:px-10 border-y-2 border-gray-200 max-w-7xl mx-auto">
       <div className="max-w-5xl mx-auto flex flex-col sm:flex-row items-center sm:items-center gap-10 sm:gap-16">
 
         <h2 className="text-4xl sm:w-1/2 sm:text-5xl font-black text-gray-900 leading-tight shrink-0 text-center sm:text-left">

@@ -23,7 +23,7 @@ export default function PrioritySection() {
       <div className="absolute inset-0 bg-linear-to-r from-black via-black/80 to-transparent" />
 
 
-      <div className="relative z-10 h-full max-w-6xl mx-auto px-6 sm:px-10 py-12 sm:py-16 flex flex-col justify-center gap-5">
+      <div className="relative z-10 h-full px-6 sm:px-8 lg:px-16 py-12 sm:py-16 flex flex-col justify-center gap-5 max-w-7xl mx-auto">
         <div className="max-w-md flex flex-col gap-4">
           <h2 className="text-2xl sm:text-3xl font-bold text-white leading-snug">
             Your Safety Is Our Priority

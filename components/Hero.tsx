@@ -17,7 +17,7 @@ export default function Hero() {
       <div className="absolute inset-0 bg-black/40" />
 
       {/* Content */}
-      <div className="relative z-10 h-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-24 flex items-center justify-center lg:justify-start gap-6 sm:gap-16 lg:gap-40">
+      <div className="relative z-10 h-full max-w-7xl mx-auto px-4 sm:px-8 lg:px-24 flex items-center justify-center lg:justify-start gap-6 sm:gap-16 lg:gap-40">
 
         <div className="hidden sm:flex shrink-0 w-48 h-48 lg:w-72 lg:h-72 bg-white rounded-2xl items-center justify-center shadow-2xl">
           <span className="text-xl font-bold tracking-widest text-black uppercase">

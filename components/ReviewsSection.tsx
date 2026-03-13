@@ -37,8 +37,8 @@ const reviews = [
 
 export default function ReviewsSection() {
   return (
-    <section className="w-full bg-white py-16 px-4 sm:px-6 lg:px-10">
-      <div className="max-w-6xl mx-auto">
+    <section className="w-full bg-white py-16 px-4 sm:px-8 lg:px-16 max-w-7xl mx-auto">
+      <div className="mx-auto">
 
         {/* heading */}
         <h2 className="text-2xl sm:text-3xl font-bold text-gray-900 text-center mb-10">

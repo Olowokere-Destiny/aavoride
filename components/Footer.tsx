@@ -32,7 +32,7 @@ const socialIcons = [
 
 export default function Footer() {
   return (
-    <footer className="w-full bg-[#FF3E1D] text-white py-16 px-4 sm:px-6 lg:px-10">
+    <footer className="w-full bg-[#FF3E1D] text-white py-16 px-4 sm:px-8 lg:px-20">
       <div className="max-w-6xl mx-auto">
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10 pb-10 lg:justify-items-center">
