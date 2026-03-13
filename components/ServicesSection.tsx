@@ -40,7 +40,6 @@ export default function ServicesSection() {
           Travel your way with AAVORide
         </h2>
 
-        {/* cards grid — 1 col mobile, 3 col desktop */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {services.map((service) => (
             <ServiceCard key={service.title} {...service} />

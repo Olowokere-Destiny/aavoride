@@ -47,7 +47,6 @@ export default function ReviewsSection() {
 
         <div className="relative px-10">
 
-          {/* prev — arrow as-is (points left) */}
           <button
             className="swiper-reviews-prev absolute left-0 top-1/2 -translate-y-1/2 z-10 w-9 h-9 rounded-full flex items-center justify-center shadow-md hover:opacity-90 transition-opacity bg-[#FF3E1D]"
           >
