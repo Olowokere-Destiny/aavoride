@@ -1,3 +1,4 @@
+import FAQSection from "@/components/FaqSection";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import NavBar from "@/components/NavBar";
@@ -19,6 +20,7 @@ export default function Home() {
       <RidesSection />
       <ReviewsSection />
       <PrioritySection />
+      <FAQSection />
     </main>
     </>
   );
